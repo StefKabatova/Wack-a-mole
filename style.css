@@ -1,0 +1,16 @@
+body{
+  text-align: center;
+}
+
+table{
+  margin: 0 auto;
+}
+
+.mole{
+  background-image:url("mole.jpg");
+}
+
+tr{
+  height:150px;
+  width:150px;
+}

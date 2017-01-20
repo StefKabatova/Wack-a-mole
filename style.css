@@ -6,6 +6,11 @@ table{
   margin: 0 auto;
 }
 
+td{
+  height: 200px;
+  width: 200px;
+  background: skyblue;
+}
 
 .on{
   background: url("mole.jpg")

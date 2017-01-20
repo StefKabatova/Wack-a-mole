@@ -6,11 +6,11 @@ table{
   margin: 0 auto;
 }
 
-.mole{
-  background-image:url("mole.jpg");
+
+.on{
+  background: url("mole.jpg")
 }
 
-tr{
-  height:150px;
-  width:150px;
+.off{
+  background: url("noMole.jpg")
 }

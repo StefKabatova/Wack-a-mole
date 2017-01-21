@@ -4,9 +4,11 @@ console.log("hello")
 
 var min;
 var max;
+var score = $('#score');
+var scoreTotal = 0;
 var startButton = $("#start");
-var stopButton = $("#stop")
-var clickledTile = $(".gameTile")
+var stopButton = $("#stop");
+var clickledTile = $(".gameTile");
 var timer ;
 
 
@@ -26,6 +28,8 @@ var timer ;
 
     //Use the "this" keyword to identify the object in function
     clickledTile.on('click', function(){
+      scoreTotal += 100
+      score.text(parseInt(scoreTotal))
       $(this).removeClass('on')
     })
 

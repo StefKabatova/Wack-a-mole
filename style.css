@@ -1,26 +1,48 @@
 body{
   text-align: center;
-  background-color: #D3D3D3;
+  font-family: Georgia;
+  background-color: #339999;
 }
 
-table{
-  margin: 0 auto;
+#game_container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#containerhead{
+  flex:100%;
+
 }
 
-.game_container{
-  margin:20px;
+.One{
+  font-size: 1.5em;
+  display: flex;
+  flex-direction: column;
 }
-
-td{
-  height: 200px;
-  width: 200px;
-  background: #F08080;
-}
-
 .on{
   background: url("mole.jpg")
 }
 
 .bad{
   background: url("badmole.jpg")
+}
+
+.gameButtons{
+  width: 100px;
+  height:50px;
+  border-radius: 10%;
+  margin: 10px;
+  background-color: lightgray;
+  font-size: 1em;
+  /*color:white;*/
+}
+
+table{
+  margin: 0 auto;
+}
+
+td{
+  height: 200px;
+  width: 200px;
+  background-color: #bbbcbd;
 }

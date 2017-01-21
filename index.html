@@ -11,30 +11,41 @@
 </head>
 <body>
 
-  <h1>Wack-A-Mole</h1>
 
-  <button id="start">Begin</button>
-  <button id="stop">Stop</button>
+    <div id="game_container">
+      <h1 id="containerhead">Wack-A-Mole</h1>
 
-<div class="game_container">
-  <table>
-    <tr>
-      <td class="gameTile"></td>
-      <td class="gameTile"></td>
-      <td class="gameTile"></td>
-    </tr>
-    <tr>
-    <td class="gameTile"></td>
-    <td class="gameTile"></td>
-    <td class="gameTile"></td>
-    </tr>
-    <tr>
-    <td class="gameTile"></td>
-    <td class="gameTile"></td>
-    <td class="gameTile"></td>
-    </tr>
-  </table>
-</div>
+    <div class="container One">
+
+      <button id="start" class="gameButtons">Begin</button>
+      <button id="stop" class="gameButtons">Stop</button>
+      <div>
+      <h3>Score:</h3>
+      <div id="score">0</div>
+      </div>
+    </div>
+
+    <div class="container Two">
+      <table>
+        <tr>
+          <td class="gameTile"></td>
+          <td class="gameTile"></td>
+          <td class="gameTile"></td>
+        </tr>
+        <tr>
+          <td class="gameTile"></td>
+          <td class="gameTile"></td>
+          <td class="gameTile"></td>
+        </tr>
+        <tr>
+          <td class="gameTile"></td>
+          <td class="gameTile"></td>
+          <td class="gameTile"></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
 
 </body>
 </html>

@@ -1,21 +1,26 @@
 body{
   text-align: center;
+  background-color: #D3D3D3;
 }
 
 table{
   margin: 0 auto;
 }
 
+.game_container{
+  margin:20px;
+}
+
 td{
   height: 200px;
   width: 200px;
-  background: skyblue;
+  background: #F08080;
 }
 
 .on{
   background: url("mole.jpg")
 }
 
-.off{
-  background: url("noMole.jpg")
+.bad{
+  background: url("badmole.jpg")
 }

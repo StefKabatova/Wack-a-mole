@@ -19,7 +19,10 @@ body{
   display: flex;
   flex-direction: column;
 }
-.on{
+td.off{
+  background: url('noMole.jpg');
+}
+td.on{
   background: url("mole.jpg")
 }
 
